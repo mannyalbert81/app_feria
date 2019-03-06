@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+	<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	  	<link rel="stylesheet" href="css/estilos.css">
+        <script src="js/jquery-3.2.1.js"></script>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+	    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	    
+	   <script src="js/iniciar_search.js"></script>
+	    
+	   <script type="text/javascript" src="vendors/table-sorter/jquery.tablesorter.js"></script>
+       <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    	
+	 </head>
+	 
+	 
+	 
+	 <body>
+	 <center><img style="text-align: center; margin-top: 20px; width:100px; height:80px;" src="img/logo_inicio.jpg"></center>
+	 <div  class="col-lg-12 col-xs-12 col-md-12" style="margin-top: 20px;">
+	   	    <center><h4><b>BUSCAR DOCUMENTOS</b></h4></center>
+                    
+                    <div class="pull-right" style="margin-right:11px;">
+					<input type="text" value="" class="form-control" id="search" name="search" onkeyup="load_pdf(1)" placeholder="search.."/>
+					</div>
+					<br>
+                    
+                    <div id="load_registrados" style="margin-top: 10px;"></div>	
+					<div id="pdf_registrados" style="margin-top: 10px;"></div>	
+						    
+             
+    </div>        
+         
+         
+         <script type="text/javascript">
+            document.addEventListener("backbutton", function() {
+        	  navigator.app.exitApp();
+        	}, false);
+
+         </script>
+    
+	
+	
+	<!-- Bootstrap -->
+     <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- NProgress -->
+   
+ 
+</body>
+
+</html>
