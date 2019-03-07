@@ -4,7 +4,7 @@
 
     function load_pdf(pagina){
 	
-	var base_url = 'http://186.4.157.125:80/demo_feria/webservices/';
+	var base_url = 'http://192.168.1.121:4000/demo_feria/webservices/';
 	var pag_service = 'CargarPDFService.php?jsoncallback';
 	
 	
