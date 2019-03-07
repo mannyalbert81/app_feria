@@ -18,7 +18,6 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" /> <!--Activador Touch-->
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /><!--Ejecutor Sistema-->
     <!--<plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />-->
-	<plugin name="cordova-plugin-whitelist" spec="~1" />
 	<plugin name="cordova-plugin-inappbrowser"/>
 	
  <platform name="android">
@@ -88,6 +87,6 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-  
+  <allow-navigation href="*" />
   
 </widget>

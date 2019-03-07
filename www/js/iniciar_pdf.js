@@ -30,9 +30,9 @@
     
     
     function load(id){
-	
-    
-	var base_url = 'http://localhost:4000/demo_feria/webservices/';
+    	
+	var base_url = 'http://192.168.1.121:4000/demo_feria/webservices/';
+
 	var pag_service = 'CargarPDFService.php?jsoncallback';
 	
 	
@@ -60,7 +60,7 @@
 	    	        
 				 	/*pdf  =  x;
 				 	
-				 	alert(pdf);
+				 
 				 	
 				 	document.getElementById("pdf").setAttribute("src", pdf);
 				 	$("#load_registrados").html('');*/			 	
