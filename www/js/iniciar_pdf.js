@@ -50,11 +50,13 @@
 			   success: function(x){
 	    	        
 				 	pdf  =  x;
-				
-				 	 window.open(pdf+".pdf","_blank");
+				 	
+				 	document.getElementById("pdf").setAttribute("src", pdf);
+				 	$("#load_registrados").html('');
 				 	
 				 	
 				 	
+		 	          
 				 
 			  },
 	          error: function(jqXHR,estado,error){
