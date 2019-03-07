@@ -4,7 +4,7 @@
 
     function load_pdf(pagina){
 	
-	var base_url = 'http://192.168.1.121:4000/demo_feria/webservices/';
+	var base_url = 'http://localhost:4000/demo_feria/webservices/';
 	var pag_service = 'CargarPDFService.php?jsoncallback';
 	
 	
@@ -31,5 +31,11 @@
 	           	     }
 	           });
 	     
+    }
+    
+    function abrirdf(id=37){
+    	
+    	var url = 'http://localhost:4000/demo_feria/view/DevuelvePDFView.php?id_documentos_legal='+id;
+    	 window.open(url);
     }
     
