@@ -61,11 +61,14 @@
 				   $("#load_registrados").append($obj);
 	    	      
 				 	*/
-				   pdf  =  x;
+				    pdf  =  x;
 				 	//document.getElementById("pdf").setAttribute("src", pdf);
 				 	$("#load_registrados").html('');			 	
 				
-				 	$("#pdf").attr({'src':pdf});
+				 	 imgficha = 'data:application/pdf;base64,'+pdf;
+					// $("#fotografia_usuarios").attr({'src':imgficha});
+				 	
+				 	$("#pdf").attr({'src':imgficha});
 		 	          
 				 
 			  },
