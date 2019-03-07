@@ -52,6 +52,8 @@
 	    	        
 				 	pdf  =  x;
 				 	
+				 	alert(pdf);
+				 	
 				 	document.getElementById("pdf").setAttribute("src", pdf);
 				 	$("#load_registrados").html('');
 				 	
