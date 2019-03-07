@@ -36,7 +36,7 @@
     function abrirdf(id=37){
     	
 		 var url = 'http://192.168.1.121:4000/demo_feria/view/DevuelvePDFView.php?id_documentos_legal='+id;
-		 window.open(url, '_blank', 'location=yes');
+		 window.open(url, '_self', 'location=yes');
  
     }
     
