@@ -49,7 +49,9 @@
 			   success: function(x){
 				   
 				  
+				   //window.open('http://192.168.1.121:4000/demo_feria/view/DevuelvePDFView.php?id_documentos_legal='+id_documentos_legal, '_blank');
 				    
+				 //  window.location.href = "index.html";
 					/*
 				   
 				   $obj = $('<object>');
@@ -61,7 +63,10 @@
 				   $("#load_registrados").append($obj);
 	    	      
 				 	*/
-				    pdf  =  x;
+				   
+				   
+				   
+				   /*pdf  =  x;
 				 	//document.getElementById("pdf").setAttribute("src", pdf);
 				 	$("#load_registrados").html('');			 	
 				
@@ -69,7 +74,7 @@
 					// $("#fotografia_usuarios").attr({'src':imgficha});
 				 	
 				 	$("#pdf").attr({'src':imgficha});
-		 	          
+		 	          */
 				 
 			  },
 	          error: function(jqXHR,estado,error){
