@@ -32,6 +32,7 @@
     function load(id){
 	
     	
+    	alert(id);
     	
 	var base_url = 'http://192.168.1.121:4000/demo_feria/webservices/';
 	var pag_service = 'CargarPDFService.php?jsoncallback';
